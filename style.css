@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    
+}
+.nav1{
+    display: flex;
+}
+.nav1 img{
+    height: 50px;
+    width:40px;
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
+.nav1 p {
+  margin-left: 160px;
+  font-size: 20px;
+  position: relative;
+  font-weight: bold;
+} 
+ .right .list{
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    left: 850px;
+    top: -40px;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.589);
+    padding: 10px;
+    
+
+    
+}
+.right .list:hover{
+    cursor: pointer;
+}
+ .ima{
+    position: relative;
+  
+    top: -15px;
+    background-color:brown;
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    color:brown;
+        
+}
+
+
+.nav2{
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.484);
+    position: relative;
+    top: -60px;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.233);
+    border-bottom: none;
+}
+.nav2 .list2{
+    display: flex;
+    list-style: none;
+    padding-left:51px;
+    padding-right: 80px;
+    justify-content: space-around;
+    color: rgba(0, 0, 0, 0.581); 
+    
+}
+.nav2 .list2:hover{
+cursor: pointer;
+ text-decoration: underline brown;
+ 
+}
+
+.nav2 h1{
+    padding-left: 148px;
+}
+.link{
+    padding-left: 145px;
+    font-size: 10px;
+}
+.link p{
+    font-size: large;
+    position: relative;
+    top: -8px;
+}
+.head2{
+    font-weight: bolder;
+    font-size: 35px;
+    padding-left: 145px;
+    position: relative;
+    top: -35px;
+
+}
+.content{
+    padding-left: 145px;
+    padding-right: 180px;
+    font-size: larger;
+    position: relative;
+    top: -50px;
+    color: rgba(0, 0, 0, 0.842);
+    line-height: 30px;
+}
+.side{
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
